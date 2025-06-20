@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -19,12 +19,28 @@
     }
 
     .content {
-      max-width: 600px;
+      max-width: 700px;
       background-color: #f7b6c2;
       padding: 30px;
       border-radius: 20px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
+    }
+
+    .photo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+
+    .circle-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
     }
 
     h1 {
@@ -60,14 +76,21 @@
 </head>
 <body>
   <div class="content">
+    <div class="photo-row">
+      <img src="buntop.jpg" alt="Left Photo" class="circle-photo" />
+      <img src="award.jpg" alt="Center Photo" class="circle-photo" />
+      <img src="vietnam.jpg" alt="Right Photo" class="circle-photo" />
+    </div>
+
     <h1>About Me</h1>
     <p>
-Hi! Alongside my academic pursuits, I'm deeply passionate about creative exploration and self-expression. I’m always seeking out new experiences that allow me to blend analytical thinking with imagination—whether through collaborative projects, problem-solving challenges, or artistic endeavors. I thrive in environments where curiosity, innovation, and thoughtful engagement come together, and I’m excited to keep learning and growing through opportunities that connect intellect with creativity.
+      Hi! Alongside my academic pursuits, I'm deeply passionate about creative exploration and self-expression. I’m always seeking out new experiences that allow me to blend analytical thinking with imagination—whether through collaborative projects, problem-solving challenges, or artistic endeavors. I thrive in environments where curiosity, innovation, and thoughtful engagement come together, and I’m excited to keep learning and growing through opportunities that connect intellect with creativity.
     </p>
+
     <div class="links">
       <a href="mailto:savannahmorrish7@gmail.com">📧 Email Me</a>
       <a href="https://www.linkedin.com/in/savannah-morrish-13a92a26b/">🔗 My LinkedIn</a>
-      <a href="index.html">🏠 Back to Home</a> <!-- This is the new home button -->
+      <a href="index.html">🏠 Back to Home</a>
     </div>
   </div>
 </body>
